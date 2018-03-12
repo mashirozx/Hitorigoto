@@ -1,4 +1,10 @@
-# ヒトリゴト
+# 失敗した犬のヒトリゴト
+败犬英梨梨定制版 <img src="https://view.moezx.cc/images/2018/03/12/icon_huaji.png" alt=":huaji:" style="height: 1em; max-height: 1em;">
+
+Mashrio <https://eriri.ml/>
+
+***
+
 yuki540.com version5.0.0のテーマは、「ヒトリゴト」です。
 
 僕の推しキャラ（2018/02/08時点）である澤村・スペンサー・英梨々をイメージしたデザインに仕上げています。
