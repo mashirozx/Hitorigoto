@@ -1,7 +1,7 @@
 # 失敗した犬のヒトリゴト
-败犬英梨梨定制版 <img src="https://view.moezx.cc/images/2018/03/12/icon_huaji.png" alt=":huaji:" style="height: 1em; max-height: 1em;">
+败犬英梨梨定制版  <https://eriri.ml/>
 
-Mashrio <https://eriri.ml/>
+![败犬](https://view.moezx.cc/images/2017/11/23/bili_v_1509126519057.gif)
 
 ***
 
