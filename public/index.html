@@ -7,40 +7,43 @@
 
 Designed by yuki540.
 
+原项目地址：https://github.com/yuki540net/Hitorigoto
+
 -->
 <!doctype html>
-<html lang="ja">
+<html lang="zh">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="「推しキャラは、コロコロ変わる。」">
-    <meta name="keywords" content="yuki540,satella.io,yuki540.com,toa,ヒトリゴト">
-    <title>ヒトリゴト</title>
+    <meta name="keywords" content="eriri,敗した犬,ヒトリゴト,敗した犬のヒトリゴト,">
+    <title>敗した犬のヒトリゴト</title>
     <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1">
-    <meta property="og:url" content="https://yuki540.com">
-    <meta property="og:image" content="https://yuki540.com/images/ogp.png">
+    <meta property="og:url" content="https://eriri.ml">
+    <meta property="og:image" content="./images/ogp.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ヒトリゴト">
-    <meta property="og:site_name" content="yuki540.com">
+    <meta property="og:site_name" content="eriri.ml">
     <meta property="og:description" content="「推しキャラは、コロコロ変わる。」">
     <meta property="og:locale" content="ja_JP">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@eriri_jp" />
     <meta name="twitter:title" content="ヒトリゴト" />
     <meta name="twitter:description" content="「推しキャラは、コロコロ変わる。」" />
-    <meta name="twitter:image" content="https://yuki540.com/images/ogp.png" />
-    <link rel="shortcut icon" href="https://yuki540.com/images/profile/yuki540.png" />
-    <link rel="apple-touch-icon" href="https://yuki540.com/images/profile/yuki540.png" />
+    <meta name="twitter:image" content="./images/ogp.png" />
+    <link rel="shortcut icon" href="./images/ogp.png" />
+    <link rel="apple-touch-icon" href="./images/ogp.png" />
     <link rel="stylesheet" href="./stylesheets/style.css" />
-    <link rel="stylesheet" href="./stylesheets/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53682384-6"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100439904-5"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-      gtag('config', 'UA-53682384-6');
-    </script>
+	  gtag('config', 'UA-100439904-5');
+	</script>
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <main id="root">
@@ -171,38 +174,38 @@ Designed by yuki540.
           <div></div><div></div><div></div><div></div><div></div>
         </div>
         <nav class="global-nav">
+          <a href="https://google.eriri.ml/" class="nav-li" onclick="onclck-g()">
+            <section>
+              <div class="label"></div>
+              <div class="triangle"></div>
+              <p class="text google-link">Google 镜像</p>
+            </section>
+          </a>
+          <a href="https://zh-wiki.eriri.ml/" class="nav-li" onclick="onclck-w()">
+            <section>
+              <div class="label"></div>
+              <div class="triangle"></div>
+              <p class="text wiki-link">Wikipedia 镜像</p>
+            </section>
+          </a>
+          <a href="https://t.shino.cc/" class="nav-li" onclick="onclck-t()">
+            <section>
+              <div class="label"></div>
+              <div class="triangle"></div>
+              <p class="text tele-link">Telegram 镜像</p>
+            </section>
+          </a>
           <a href="#profile" class="nav-li">
             <section>
               <div class="label"></div>
               <div class="triangle"></div>
-              <p class="text">私について</p>
-            </section>
-          </a>
-          <a href="#history" class="nav-li">
-            <section>
-              <div class="label"></div>
-              <div class="triangle"></div>
-              <p class="text">このサイトの歴史</p>
-            </section>
-          </a>
-          <a href="#product" class="nav-li">
-            <section>
-              <div class="label"></div>
-              <div class="triangle"></div>
-              <p class="text">作ったもの</p>
-            </section>
-          </a>
-          <a href="#memories" class="nav-li">
-            <section>
-              <div class="label"></div>
-              <div class="triangle"></div>
-              <p class="text">思い出</p>
+              <p class="text">关于败犬（敗した犬）</p>
             </section>
           </a>
         </nav>
         <nav class="sns-nav">
-          <a class="github" href="https://github.com/yuki540net" target="_blank"></a>
-          <a class="twitter" href="https://twitter.com/eriri_jp" target="_blank"></a>
+          <a class="weibo" href="https://weibo.com/2960337711" target="_blank"></a>
+          <a class="twitter" href="https://twitter.com/2hengxin" target="_blank"></a>
         </nav>
         <div class="sp-menu">
           <div class="inner"><div></div><div></div><div></div></div>
@@ -217,54 +220,74 @@ Designed by yuki540.
           <div class="inner">
             <!-- profile -->
             <section class="profile-page page">
-              <h2 class="page-title">私について</h2>
+              <h2 class="page-title">澤村・スペンサー・英梨々</h2>
               <div class="box">
                 <section class="left">
                   <div class="icon"><div></div></div>
                 </section>
                 <section class="right">
-                  <h3>yuki540</h3>
+                  <h3>Sawamura Spencer Eriri</h3>
                   <p>
-                    <span class="fa fa-map-marker"></span>
-                    Wakayama, Japan
+                    <span class="fa fa-address-card"></span>
+                    Blessing Software、私立豊ヶ崎学園 美術部、同人サークル『egoisthic-lily』
                   </p>
                   <p>
                     <span class="fa fa-birthday-cake"></span>
-                    1996/11/09
+                    3月20日，16岁
                   </p>
                   <p>
                     <span class="fa fa-graduation-cap"></span>
-                    ニート（専門学校退学した）
+                    私立豊ヶ崎学園2年G組
                   </p>
                   <p>
                     <span class="fa fa-heart"></span>
-                    Live2D, Anime, Mirai_Akari
+                    安芸倫也、加藤恵、霞ヶ丘詩羽、氷堂美智留、波島出海
+                  </p>
+				  <p>
+                    <span class="fa fa-child"></span>
+                    豊ヶ崎学園1，2を争う美少女にして、英国外交官を父に持ち、高台の豪邸に住む正真正銘のお嬢様。<br>
+                    しかし、その裏の顔は超人気サークル『egoisthic-lily』を主宰し、18禁同人誌を描きまくる新進気鋭のイラストレーター「柏木エリ」。<br>
+                    こうなったのは、腐女子のママとオタクのパパの影響が強い。
                   </p>
                 </section>
               </div>
             </section>
+			<style>a{color:#666}.history-page,.product-page,.memories-page{display:none}#top-page .sns-nav .weibo {background-image: url(../images/top-page/sns/weibo.png);}</style>
 
             <!-- history -->
             <section class="history-page page">
-              <h2 class="page-title">このサイトの歴史</h2>
+              <h2 class="page-title">Google 镜像</h2>
               <div id="history-box"><!-- react component --></div>
             </section>
 
             <!-- product -->
             <section class="product-page page">
-              <h2 class="page-title">作ったもの</h2>
+              <h2 class="page-title">维基中文镜像</h2>
               <div id="product-box"><!-- react component --></div>
             </section>
 
             <!-- memories -->
             <section class="memories-page page">
-              <h2 class="page-title">思い出</h2>
+              <h2 class="page-title">Telegram 镜像</h2>
               <div id="memories-box"><!-- react component --></div>
             </section>
           </div>
         </div>
       </section>
     </main>
+	<script>
+		$(document).ready(function(){
+			$(".google-link").click(function(){
+				window.open("https://google.eriri.ml", '_blank');
+			});
+			$(".wiki-link").click(function(){
+				window.open("https://zh-wiki.eriri.ml", '_blank');
+			});
+			$(".tele-link").click(function(){
+				window.open("https://t.shino.cc", '_blank');
+			});
+		});
+	</script>
     <script type="text/javascript" src="./scripts/app.min.js"></script>
   </body>
 </html>
